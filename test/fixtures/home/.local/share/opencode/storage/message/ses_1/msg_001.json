@@ -1,0 +1,20 @@
+{
+ "id": "msg_001",
+ "sessionID": "ses_1",
+ "role": "assistant",
+ "providerID": "zai",
+ "modelID": "glm-5.1",
+ "time": {
+  "created": 1792152000000
+ },
+ "tokens": {
+  "input": 300,
+  "output": 50,
+  "reasoning": 10,
+  "cache": {
+   "read": 700,
+   "write": 0
+  }
+ },
+ "cost": 0
+}

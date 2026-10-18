@@ -1,0 +1,2 @@
+{"timestamp": "2026-10-15T09:59:01Z", "type": "turn_context", "payload": {"model": "gpt-5.3-codex"}}
+{"timestamp": "2026-10-15T10:00:00Z", "type": "event_msg", "payload": {"type": "token_count", "info": {"last_token_usage": {"input_tokens": 77777, "cached_input_tokens": 0, "output_tokens": 7777, "reasoning_output_tokens": 0, "total_tokens": 85554}, "total_token_usage": {"input_tokens": 77777, "cached_input_tokens": 0, "output_tokens": 7777, "reasoning_output_tokens": 0, "total_tokens": 85554}}}}

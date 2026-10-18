@@ -1,0 +1,46 @@
+{
+  "name": "tokenreceipt",
+  "version": "2.0.0",
+  "description": "See what Claude Code, Codex and OpenCode would cost at API prices, from your local logs. Read-only, zero dependencies, nothing uploaded.",
+  "type": "module",
+  "bin": {
+    "tokenreceipt": "bin/tokenreceipt.mjs"
+  },
+  "exports": {
+    "./schema": "./src/summary-schema.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "data/prices.json",
+    "README.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "start": "node bin/tokenreceipt.mjs"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "opencode",
+    "tokens",
+    "cost",
+    "usage",
+    "llm"
+  ],
+  "homepage": "https://devprohacks.in",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyb3rvolt3x-A4lixhaS3ntin3l/tokenreceipt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cyb3rvolt3x-A4lixhaS3ntin3l/tokenreceipt/issues"
+  },
+  "license": "MIT",
+  "author": "Syed Zada Abrar <hello@devprohacks.in>"
+}

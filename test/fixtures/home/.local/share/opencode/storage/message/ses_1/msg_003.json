@@ -1,0 +1,19 @@
+{
+ "id": "msg_003",
+ "sessionID": "ses_1",
+ "role": "assistant",
+ "providerID": "acme",
+ "modelID": "mystery-model-x",
+ "time": {
+  "created": 1792152300000
+ },
+ "tokens": {
+  "input": 10,
+  "output": 5,
+  "reasoning": 0,
+  "cache": {
+   "read": 0,
+   "write": 0
+  }
+ }
+}
